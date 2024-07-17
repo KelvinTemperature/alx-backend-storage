@@ -1,0 +1,2 @@
+//deletes all occurence of the name value
+db.school.deleteMany({name: "Holberton school"});

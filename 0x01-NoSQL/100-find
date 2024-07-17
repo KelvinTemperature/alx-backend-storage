@@ -1,0 +1,2 @@
+//find all instance of a word
+db.school.find({name: /Holberton.*/}).forEach(printjson);
